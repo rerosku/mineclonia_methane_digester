@@ -1,0 +1,18 @@
+5:local _={};
+_[1]="methane_digester:digester";
+_[2]="mcl_core:cobble";
+_[3]="mcl_core:stonebrick";
+_[4]="mcl_core:iron_ingot";
+_[5]="mcl_core:glass";
+_[6]="mcl_cauldrons:cauldron";
+_[7]="mcl_core:redstone";
+_[8]="mcl_furnaces:furnace";
+_[9]="mcl_blast_furnace:blast_furnace";
+_[10]="mcl_smoker:smoker";
+_[11]="mcl_chests:chest";
+_[12]="mcl_signs:wall_sign_wood";
+_[13]="mcl_torches:torch";
+_[14]="inventory";
+_[15]="formspec";
+
+return {{name=_[2],x=0,param2=0,z=0,y=0},{name=_[2],x=1,param2=0,z=0,y=0},{name=_[2],x=2,param2=0,z=0,y=0},{name=_[2],x=3,param2=0,z=0,y=0},{name=_[2],x=4,param2=0,z=0,y=0},{name=_[2],x=0,param2=0,z=1,y=0},{name=_[3],x=1,param2=0,z=1,y=0},{name=_[3],x=2,param2=0,z=1,y=0},{name=_[3],x=3,param2=0,z=1,y=0},{name=_[2],x=4,param2=0,z=1,y=0},{name=_[2],x=0,param2=0,z=2,y=0},{name=_[3],x=1,param2=0,z=2,y=0},{name=_[1],x=2,param2=0,z=2,y=0},{name=_[3],x=3,param2=0,z=2,y=0},{name=_[2],x=4,param2=0,z=2,y=0},{name=_[2],x=0,param2=0,z=3,y=0},{name=_[3],x=1,param2=0,z=3,y=0},{name=_[3],x=2,param2=0,z=3,y=0},{name=_[3],x=3,param2=0,z=3,y=0},{name=_[2],x=4,param2=0,z=3,y=0},{name=_[2],x=0,param2=0,z=4,y=0},{name=_[2],x=1,param2=0,z=4,y=0},{name=_[2],x=2,param2=0,z=4,y=0},{name=_[2],x=3,param2=0,z=4,y=0},{name=_[2],x=4,param2=0,z=4,y=0},{name=_[13],x=0,param2=1,z=2,y=1},{name=_[8],x=1,param2=0,z=2,y=1},{name=_[13],x=4,param2=2,z=2,y=1},{name=_[9],x=2,param2=0,z=1,y=1},{name=_[10],x=2,param2=0,z=3,y=1},{name=_[11],meta={fields={},[_[14]]={main={"","","","","","","","","","","","","","","","","","","","","","","","","","",""}}},x=0,param2=0,z=0,y=1},{name=_[11],meta={fields={},[_[14]]={main={"","","","","","","","","","","","","","","","","","","","","","","","","","",""}}},x=4,param2=0,z=0,y=1},{name=_[12],meta={fields={text="🧫 DIGESTORE DI METANO\n\nInserire materiali organici\nnel digestore centrale\n\nFornaci alimentate\nautomaticamente\n\n40+ materiali supportati"},[_[14]]={}},x=2,param2=2,z=0,y=1},{name=_[12],meta={fields={text="⚡ ENERGIA BIOGAS\n\nProduce combustibile\nda scarti organici\n\nEcologico e sostenibile\n\nRange: 6 blocchi"},[_[14]]={}},x=0,param2=1,z=4,y=1},{name=_[12],meta={fields={text="🍶 IMBOTTIGLIAMENTO\n\nUsare bottiglie vuote\nper trasportare biogas\n\nCombustibile portatile\n\n100 RF per bottiglia"},[_[14]]={}},x=4,param2=3,z=4,y=1}}
